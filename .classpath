@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="be/wide/test/|be/wide/main/MainProgram.java|be/wide/detector/OpenCVHandler.java|be/wide/main/AnimatedCircleTest.java|be/wide/main/NewDetectionTest.java|be/wide/dom/Hand.java" kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry exported="true" kind="lib" path="libs/NITE/com.primesense.NITE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/Users/maarten.taeymans/Workspace/KinectProgram/libs/NITE"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="libs/OpenNI/org.OpenNI.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/Users/maarten.taeymans/Workspace/KinectProgram/libs/OpenNI"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="libs/Processing/core.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/Hemesh/apfloat.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/Hemesh/hemesh.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/Hemesh/javolution-5.5.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/Hemesh/quickhull3d.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/OpenCV/javacpp.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/Users/maarten.taeymans/Workspace/KinectProgram/libs/OpenCV"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="libs/OpenCV/javacv-macosx-x86_64.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/Users/maarten.taeymans/Workspace/KinectProgram/libs/OpenCV"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="libs/OpenCV/javacv.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/Users/maarten.taeymans/Workspace/KinectProgram/libs/OpenCV"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="libs/OpenGL/gluegen-rt.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/Users/maarten.taeymans/Workspace/KinectProgram/libs/OpenGL/macosx"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="libs/OpenGL/jogl.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/Users/maarten.taeymans/Workspace/KinectProgram/libs/OpenGL/macosx"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="libs/OpenGL/opengl.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

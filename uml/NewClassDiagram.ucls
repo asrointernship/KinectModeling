@@ -1,0 +1,847 @@
+<class-diagram version="0.9.86" automaticImage="PNG" icons="true" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="true" nesting-relationships="true">  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.controller.KinectController.CalibrationCompleteObserver" 
+    project="KinectProgram" file="/KinectProgram/src/be/wide/controller/KinectController.java" binary="false">    
+    <position x="1929" y="-819" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.main.KinectProgram.WaveObserver" project="KinectProgram" 
+    file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false">    
+    <position x="143" y="205" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.dom.Point3" project="KinectProgram" 
+    file="/KinectProgram/src/be/wide/dom/Point3.java" binary="false">    
+    <position x="1725" y="1207" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.main.KinectProgram.SwipeDownObserver" 
+    project="KinectProgram" file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false">    
+    <position x="132" y="307" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.controller.KinectController.LostUserObserver" 
+    project="KinectProgram" file="/KinectProgram/src/be/wide/controller/KinectController.java" binary="false">    
+    <position x="1867" y="-703" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.detector.BodyPoseHandler" project="KinectProgram" 
+    file="/KinectProgram/src/be/wide/detector/BodyPoseHandler.java" binary="false">    
+    <position x="1937" y="-247" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.main.KinectProgram.PushObserver" project="KinectProgram" 
+    file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false">    
+    <position x="152" y="433" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.main.KinectProgram.BodyPoseObserver" 
+    project="KinectProgram" file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false">    
+    <position x="1311" y="10" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.controller.SphereCamera" project="KinectProgram" 
+    file="/KinectProgram/src/be/wide/controller/SphereCamera.java" binary="false">    
+    <position x="1307" y="780" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.detector.BodyPoseDetector" project="KinectProgram" 
+    file="/KinectProgram/src/be/wide/detector/BodyPoseDetector.java" binary="false">    
+    <position x="1811" y="207" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.main.KinectProgram.HandDetectionObserver" 
+    project="KinectProgram" file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false">    
+    <position x="1250" y="448" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.dom.Button" project="KinectProgram" 
+    file="/KinectProgram/src/be/wide/dom/Button.java" binary="false">    
+    <position x="1053" y="-640" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.dom.ButtonEventArgs" project="KinectProgram" 
+    file="/KinectProgram/src/be/wide/dom/ButtonEventArgs.java" binary="false">    
+    <position x="788" y="-737" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.dom.Quaternion" project="KinectProgram" 
+    file="/KinectProgram/src/be/wide/dom/Quaternion.java" binary="false">    
+    <position x="1492" y="1071" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.main.KinectProgram.NoCircleObserver" 
+    project="KinectProgram" file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false">    
+    <position x="217" y="561" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.main.KinectProgram.ButtonObserver" project="KinectProgram" 
+    file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false">    
+    <position x="632" y="-553" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.detector.BodyPoseRule" project="KinectProgram" 
+    file="/KinectProgram/src/be/wide/detector/BodyPoseRule.java" binary="false">    
+    <position x="2131" y="241" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.detector.DetectionHandler" project="KinectProgram" 
+    file="/KinectProgram/src/be/wide/detector/DetectionHandler.java" binary="false">    
+    <position x="2183" y="790" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.main.KinectProgram.CircleObserver" project="KinectProgram" 
+    file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false">    
+    <position x="287" y="681" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.dom.Matrix4" project="KinectProgram" 
+    file="/KinectProgram/src/be/wide/dom/Matrix4.java" binary="false">    
+    <position x="1495" y="1349" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.dom.Slider" project="KinectProgram" 
+    file="/KinectProgram/src/be/wide/dom/Slider.java" binary="false">    
+    <position x="386" y="-480" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.dom.Vector3" project="KinectProgram" 
+    file="/KinectProgram/src/be/wide/dom/Vector3.java" binary="false">    
+    <position x="1223" y="1226" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.detector.HandDetectionEventArgs" project="KinectProgram" 
+    file="/KinectProgram/src/be/wide/detector/HandDetectionEventArgs.java" binary="false">    
+    <position x="1605" y="653" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.controller.KinectController.NewUserObserver" 
+    project="KinectProgram" file="/KinectProgram/src/be/wide/controller/KinectController.java" binary="false">    
+    <position x="2123" y="-915" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.controller.GestureController.SessionStartObserver" 
+    project="KinectProgram" file="/KinectProgram/src/be/wide/controller/GestureController.java" binary="false">    
+    <position x="1498" y="-759" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.controller.GestureController.SessionEndObserver" 
+    project="KinectProgram" file="/KinectProgram/src/be/wide/controller/GestureController.java" binary="false">    
+    <position x="1333" y="-880" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.main.KinectProgram.SteadyObserver" project="KinectProgram" 
+    file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false">    
+    <position x="580" y="711" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.main.KinectProgram.SwipeUpObserver" project="KinectProgram" 
+    file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false">    
+    <position x="725" y="862" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.main.KinectProgram" project="KinectProgram" 
+    file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false">    
+    <position x="683" y="111" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.controller.KinectController.PoseDetectedObserver" 
+    project="KinectProgram" file="/KinectProgram/src/be/wide/controller/KinectController.java" binary="false">    
+    <position x="1866" y="-564" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.controller.KinectController" project="KinectProgram" 
+    file="/KinectProgram/src/be/wide/controller/KinectController.java" binary="false">    
+    <position x="2496" y="-466" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.dom.AnimatedCircle" project="KinectProgram" 
+    file="/KinectProgram/src/be/wide/dom/AnimatedCircle.java" binary="false">    
+    <position x="244" y="-212" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.detector.BodyPoseEventArgs" project="KinectProgram" 
+    file="/KinectProgram/src/be/wide/detector/BodyPoseEventArgs.java" binary="false">    
+    <position x="1658" y="-17" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.controller.GestureController" project="KinectProgram" 
+    file="/KinectProgram/src/be/wide/controller/GestureController.java" binary="false">    
+    <position x="1321" y="-427" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.main.KinectProgram.SwipeRightObserver" 
+    project="KinectProgram" file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false">    
+    <position x="896" y="776" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.main.KinectProgram.SwipeLeftObserver" 
+    project="KinectProgram" file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false">    
+    <position x="1038" y="698" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.main.KinectProgram.NotSteadyObserver" 
+    project="KinectProgram" file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false">    
+    <position x="394" y="788" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="be.wide.dom.Particle" project="KinectProgram" 
+    file="/KinectProgram/src/be/wide/dom/Particle.java" binary="false">    
+    <position x="109" y="53" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="true"/>      
+      <operations public="true" package="true" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <association>    
+    <bendpoint x="1690" y="-355"/>    
+    <source project="KinectProgram" name="be.wide.main.KinectProgram" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false" navigable="false">      
+      <attribute name="kinect"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.controller.KinectController" 
+      file="/KinectProgram/src/be/wide/controller/KinectController.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <bendpoint x="1653" y="958"/>    
+    <source project="KinectProgram" name="be.wide.controller.SphereCamera" 
+      file="/KinectProgram/src/be/wide/controller/SphereCamera.java" binary="false" navigable="false">      
+      <attribute name="defaultLook"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.dom.Point3" file="/KinectProgram/src/be/wide/dom/Point3.java" 
+      binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="KinectProgram" name="be.wide.controller.KinectController" 
+      file="/KinectProgram/src/be/wide/controller/KinectController.java" binary="false" navigable="false">      
+      <attribute name="gestureCont"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.controller.GestureController" 
+      file="/KinectProgram/src/be/wide/controller/GestureController.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency>    
+    <source project="KinectProgram" name="be.wide.controller.SphereCamera" 
+      file="/KinectProgram/src/be/wide/controller/SphereCamera.java" binary="false"/>    
+    <target project="KinectProgram" name="be.wide.dom.Quaternion" file="/KinectProgram/src/be/wide/dom/Quaternion.java" 
+      binary="false"/>  
+  </dependency>  
+  <nesting>    
+    <source project="KinectProgram" name="be.wide.main.KinectProgram" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false"/>    
+    <target project="KinectProgram" name="be.wide.main.KinectProgram.SwipeRightObserver" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false"/>  
+  </nesting>  
+  <association>    
+    <bendpoint x="1222" y="1038"/>    
+    <source project="KinectProgram" name="be.wide.controller.SphereCamera" 
+      file="/KinectProgram/src/be/wide/controller/SphereCamera.java" binary="false" navigable="false">      
+      <attribute name="n"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.dom.Vector3" file="/KinectProgram/src/be/wide/dom/Vector3.java" 
+      binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="KinectProgram" name="be.wide.main.KinectProgram" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false" navigable="false">      
+      <attribute name="selectionButton"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.dom.Button" file="/KinectProgram/src/be/wide/dom/Button.java" 
+      binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency>    
+    <source project="KinectProgram" name="be.wide.dom.Point3" file="/KinectProgram/src/be/wide/dom/Point3.java" 
+      binary="false"/>    
+    <target project="KinectProgram" name="be.wide.dom.Vector3" file="/KinectProgram/src/be/wide/dom/Vector3.java" 
+      binary="false"/>  
+  </dependency>  
+  <nesting>    
+    <source project="KinectProgram" name="be.wide.main.KinectProgram" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false"/>    
+    <target project="KinectProgram" name="be.wide.main.KinectProgram.SwipeUpObserver" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false"/>  
+  </nesting>  
+  <association>    
+    <bendpoint x="977" y="-178"/>    
+    <source project="KinectProgram" name="be.wide.main.KinectProgram" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false" navigable="false">      
+      <attribute name="zoomButton"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.dom.Button" file="/KinectProgram/src/be/wide/dom/Button.java" 
+      binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency>    
+    <source project="KinectProgram" name="be.wide.detector.DetectionHandler" 
+      file="/KinectProgram/src/be/wide/detector/DetectionHandler.java" binary="false"/>    
+    <target project="KinectProgram" name="be.wide.detector.HandDetectionEventArgs" 
+      file="/KinectProgram/src/be/wide/detector/HandDetectionEventArgs.java" binary="false"/>  
+  </dependency>  
+  <nesting>    
+    <source project="KinectProgram" name="be.wide.controller.KinectController" 
+      file="/KinectProgram/src/be/wide/controller/KinectController.java" binary="false"/>    
+    <target project="KinectProgram" name="be.wide.controller.KinectController.NewUserObserver" 
+      file="/KinectProgram/src/be/wide/controller/KinectController.java" binary="false"/>  
+  </nesting>  
+  <association>    
+    <source project="KinectProgram" name="be.wide.main.KinectProgram" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false" navigable="false">      
+      <attribute name="cam"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.controller.SphereCamera" 
+      file="/KinectProgram/src/be/wide/controller/SphereCamera.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <bendpoint x="495" y="-191"/>    
+    <source project="KinectProgram" name="be.wide.main.KinectProgram" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false" navigable="false">      
+      <attribute name="modelSlider"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.dom.Slider" file="/KinectProgram/src/be/wide/dom/Slider.java" 
+      binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting>    
+    <source project="KinectProgram" name="be.wide.main.KinectProgram" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false"/>    
+    <target project="KinectProgram" name="be.wide.main.KinectProgram.BodyPoseObserver" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false"/>  
+  </nesting>  
+  <dependency>    
+    <source project="KinectProgram" name="be.wide.main.KinectProgram.ButtonObserver" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false"/>    
+    <target project="KinectProgram" name="be.wide.dom.ButtonEventArgs" 
+      file="/KinectProgram/src/be/wide/dom/ButtonEventArgs.java" binary="false"/>  
+  </dependency>  
+  <dependency>    
+    <source project="KinectProgram" name="be.wide.main.KinectProgram.BodyPoseObserver" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false"/>    
+    <target project="KinectProgram" name="be.wide.detector.BodyPoseEventArgs" 
+      file="/KinectProgram/src/be/wide/detector/BodyPoseEventArgs.java" binary="false"/>  
+  </dependency>  
+  <nesting>    
+    <source project="KinectProgram" name="be.wide.main.KinectProgram" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false"/>    
+    <target project="KinectProgram" name="be.wide.main.KinectProgram.SwipeDownObserver" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false"/>  
+  </nesting>  
+  <association>    
+    <bendpoint x="1670" y="948"/>    
+    <source project="KinectProgram" name="be.wide.controller.SphereCamera" 
+      file="/KinectProgram/src/be/wide/controller/SphereCamera.java" binary="false" navigable="false">      
+      <attribute name="defaultEye"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.dom.Point3" file="/KinectProgram/src/be/wide/dom/Point3.java" 
+      binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="KinectProgram" name="be.wide.main.KinectProgram" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false" navigable="false">      
+      <attribute name="gest"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.controller.GestureController" 
+      file="/KinectProgram/src/be/wide/controller/GestureController.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="KinectProgram" name="be.wide.controller.KinectController" 
+      file="/KinectProgram/src/be/wide/controller/KinectController.java" binary="false" navigable="false">      
+      <attribute name="uniqueInstance"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.controller.KinectController" 
+      file="/KinectProgram/src/be/wide/controller/KinectController.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="KinectProgram" name="be.wide.detector.BodyPoseHandler" 
+      file="/KinectProgram/src/be/wide/detector/BodyPoseHandler.java" binary="false" navigable="false">      
+      <attribute name="poses"/>      
+      <multiplicity minimum="0" maximum="2147483647"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.detector.BodyPoseDetector" 
+      file="/KinectProgram/src/be/wide/detector/BodyPoseDetector.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="KinectProgram" name="be.wide.detector.BodyPoseEventArgs" 
+      file="/KinectProgram/src/be/wide/detector/BodyPoseEventArgs.java" binary="false" navigable="false">      
+      <attribute name="pose"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.detector.BodyPoseDetector" 
+      file="/KinectProgram/src/be/wide/detector/BodyPoseDetector.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <bendpoint x="1581" y="151"/>    
+    <source project="KinectProgram" name="be.wide.main.KinectProgram" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false" navigable="false">      
+      <attribute name="pd2"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.detector.BodyPoseDetector" 
+      file="/KinectProgram/src/be/wide/detector/BodyPoseDetector.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <bendpoint x="950" y="-190"/>    
+    <source project="KinectProgram" name="be.wide.main.KinectProgram" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false" navigable="false">      
+      <attribute name="modelButton"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.dom.Button" file="/KinectProgram/src/be/wide/dom/Button.java" 
+      binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <bendpoint x="1182" y="1038"/>    
+    <source project="KinectProgram" name="be.wide.controller.SphereCamera" 
+      file="/KinectProgram/src/be/wide/controller/SphereCamera.java" binary="false" navigable="false">      
+      <attribute name="cameraUp"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.dom.Vector3" file="/KinectProgram/src/be/wide/dom/Vector3.java" 
+      binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency>    
+    <source project="KinectProgram" name="be.wide.dom.Quaternion" file="/KinectProgram/src/be/wide/dom/Quaternion.java" 
+      binary="false"/>    
+    <target project="KinectProgram" name="be.wide.dom.Vector3" file="/KinectProgram/src/be/wide/dom/Vector3.java" 
+      binary="false"/>  
+  </dependency>  
+  <association>    
+    <source project="KinectProgram" name="be.wide.dom.ButtonEventArgs" 
+      file="/KinectProgram/src/be/wide/dom/ButtonEventArgs.java" binary="false" navigable="false">      
+      <attribute name="but"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.dom.Button" file="/KinectProgram/src/be/wide/dom/Button.java" 
+      binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting>    
+    <source project="KinectProgram" name="be.wide.main.KinectProgram" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false"/>    
+    <target project="KinectProgram" name="be.wide.main.KinectProgram.SwipeLeftObserver" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false"/>  
+  </nesting>  
+  <nesting>    
+    <source project="KinectProgram" name="be.wide.main.KinectProgram" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false"/>    
+    <target project="KinectProgram" name="be.wide.main.KinectProgram.ButtonObserver" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false"/>  
+  </nesting>  
+  <nesting>    
+    <source project="KinectProgram" name="be.wide.main.KinectProgram" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false"/>    
+    <target project="KinectProgram" name="be.wide.main.KinectProgram.NotSteadyObserver" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false"/>  
+  </nesting>  
+  <association>    
+    <source project="KinectProgram" name="be.wide.main.KinectProgram" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false" navigable="false">      
+      <attribute name="rotateSlider"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.dom.Slider" file="/KinectProgram/src/be/wide/dom/Slider.java" 
+      binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting>    
+    <source project="KinectProgram" name="be.wide.main.KinectProgram" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false"/>    
+    <target project="KinectProgram" name="be.wide.main.KinectProgram.CircleObserver" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false"/>  
+  </nesting>  
+  <dependency>    
+    <source project="KinectProgram" name="be.wide.detector.BodyPoseHandler" 
+      file="/KinectProgram/src/be/wide/detector/BodyPoseHandler.java" binary="false"/>    
+    <target project="KinectProgram" name="be.wide.detector.BodyPoseEventArgs" 
+      file="/KinectProgram/src/be/wide/detector/BodyPoseEventArgs.java" binary="false"/>  
+  </dependency>  
+  <dependency>    
+    <source project="KinectProgram" name="be.wide.dom.Matrix4" file="/KinectProgram/src/be/wide/dom/Matrix4.java" 
+      binary="false"/>    
+    <target project="KinectProgram" name="be.wide.dom.Vector3" file="/KinectProgram/src/be/wide/dom/Vector3.java" 
+      binary="false"/>  
+  </dependency>  
+  <association>    
+    <source project="KinectProgram" name="be.wide.main.KinectProgram" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false" navigable="false">      
+      <attribute name="introExplo"/>      
+      <multiplicity minimum="0" maximum="2147483647"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.dom.AnimatedCircle" 
+      file="/KinectProgram/src/be/wide/dom/AnimatedCircle.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <bendpoint x="1437" y="307"/>    
+    <source project="KinectProgram" name="be.wide.main.KinectProgram" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false" navigable="false">      
+      <attribute name="opencv"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.detector.DetectionHandler" 
+      file="/KinectProgram/src/be/wide/detector/DetectionHandler.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <bendpoint x="1320" y="1053"/>    
+    <source project="KinectProgram" name="be.wide.controller.SphereCamera" 
+      file="/KinectProgram/src/be/wide/controller/SphereCamera.java" binary="false" navigable="false">      
+      <attribute name="u"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.dom.Vector3" file="/KinectProgram/src/be/wide/dom/Vector3.java" 
+      binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="KinectProgram" name="be.wide.detector.BodyPoseHandler" 
+      file="/KinectProgram/src/be/wide/detector/BodyPoseHandler.java" binary="false" navigable="false">      
+      <attribute name="uniqueInstance"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.detector.BodyPoseHandler" 
+      file="/KinectProgram/src/be/wide/detector/BodyPoseHandler.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting>    
+    <source project="KinectProgram" name="be.wide.main.KinectProgram" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false"/>    
+    <target project="KinectProgram" name="be.wide.main.KinectProgram.WaveObserver" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false"/>  
+  </nesting>  
+  <association>    
+    <bendpoint x="870" y="-220"/>    
+    <source project="KinectProgram" name="be.wide.main.KinectProgram" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false" navigable="false">      
+      <attribute name="menuButton"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.dom.Button" file="/KinectProgram/src/be/wide/dom/Button.java" 
+      binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <bendpoint x="1688" y="946"/>    
+    <source project="KinectProgram" name="be.wide.controller.SphereCamera" 
+      file="/KinectProgram/src/be/wide/controller/SphereCamera.java" binary="false" navigable="false">      
+      <attribute name="cameraEye"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.dom.Point3" file="/KinectProgram/src/be/wide/dom/Point3.java" 
+      binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <bendpoint x="1343" y="1079"/>    
+    <source project="KinectProgram" name="be.wide.controller.SphereCamera" 
+      file="/KinectProgram/src/be/wide/controller/SphereCamera.java" binary="false" navigable="false">      
+      <attribute name="defaultUp"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.dom.Vector3" file="/KinectProgram/src/be/wide/dom/Vector3.java" 
+      binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="KinectProgram" name="be.wide.main.KinectProgram" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false" navigable="false">      
+      <attribute name="pd"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.detector.BodyPoseDetector" 
+      file="/KinectProgram/src/be/wide/detector/BodyPoseDetector.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting>    
+    <source project="KinectProgram" name="be.wide.controller.KinectController" 
+      file="/KinectProgram/src/be/wide/controller/KinectController.java" binary="false"/>    
+    <target project="KinectProgram" name="be.wide.controller.KinectController.PoseDetectedObserver" 
+      file="/KinectProgram/src/be/wide/controller/KinectController.java" binary="false"/>  
+  </nesting>  
+  <association>    
+    <source project="KinectProgram" name="be.wide.detector.BodyPoseDetector" 
+      file="/KinectProgram/src/be/wide/detector/BodyPoseDetector.java" binary="false" navigable="false">      
+      <attribute name="rules"/>      
+      <multiplicity minimum="0" maximum="2147483647"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.detector.BodyPoseRule" 
+      file="/KinectProgram/src/be/wide/detector/BodyPoseRule.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency>    
+    <source project="KinectProgram" name="be.wide.dom.Matrix4" file="/KinectProgram/src/be/wide/dom/Matrix4.java" 
+      binary="false"/>    
+    <target project="KinectProgram" name="be.wide.dom.Point3" file="/KinectProgram/src/be/wide/dom/Point3.java" 
+      binary="false"/>  
+  </dependency>  
+  <association>    
+    <source project="KinectProgram" name="be.wide.detector.DetectionHandler" 
+      file="/KinectProgram/src/be/wide/detector/DetectionHandler.java" binary="false" navigable="false">      
+      <attribute name="kinect"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.controller.KinectController" 
+      file="/KinectProgram/src/be/wide/controller/KinectController.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting>    
+    <source project="KinectProgram" name="be.wide.controller.KinectController" 
+      file="/KinectProgram/src/be/wide/controller/KinectController.java" binary="false"/>    
+    <target project="KinectProgram" name="be.wide.controller.KinectController.CalibrationCompleteObserver" 
+      file="/KinectProgram/src/be/wide/controller/KinectController.java" binary="false"/>  
+  </nesting>  
+  <nesting>    
+    <source project="KinectProgram" name="be.wide.controller.GestureController" 
+      file="/KinectProgram/src/be/wide/controller/GestureController.java" binary="false"/>    
+    <target project="KinectProgram" name="be.wide.controller.GestureController.SessionEndObserver" 
+      file="/KinectProgram/src/be/wide/controller/GestureController.java" binary="false"/>  
+  </nesting>  
+  <nesting>    
+    <source project="KinectProgram" name="be.wide.main.KinectProgram" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false"/>    
+    <target project="KinectProgram" name="be.wide.main.KinectProgram.NoCircleObserver" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false"/>  
+  </nesting>  
+  <association>    
+    <source project="KinectProgram" name="be.wide.main.KinectProgram" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false" navigable="false">      
+      <attribute name="particles"/>      
+      <multiplicity minimum="0" maximum="2147483647"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.dom.Particle" file="/KinectProgram/src/be/wide/dom/Particle.java" 
+      binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="KinectProgram" name="be.wide.main.KinectProgram" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false" navigable="false">      
+      <attribute name="bpHandler"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.detector.BodyPoseHandler" 
+      file="/KinectProgram/src/be/wide/detector/BodyPoseHandler.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting>    
+    <source project="KinectProgram" name="be.wide.main.KinectProgram" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false"/>    
+    <target project="KinectProgram" name="be.wide.main.KinectProgram.HandDetectionObserver" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false"/>  
+  </nesting>  
+  <association>    
+    <bendpoint x="1634" y="965"/>    
+    <source project="KinectProgram" name="be.wide.controller.SphereCamera" 
+      file="/KinectProgram/src/be/wide/controller/SphereCamera.java" binary="false" navigable="false">      
+      <attribute name="cameraLook"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.dom.Point3" file="/KinectProgram/src/be/wide/dom/Point3.java" 
+      binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency>    
+    <source project="KinectProgram" name="be.wide.main.KinectProgram.HandDetectionObserver" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false"/>    
+    <target project="KinectProgram" name="be.wide.detector.HandDetectionEventArgs" 
+      file="/KinectProgram/src/be/wide/detector/HandDetectionEventArgs.java" binary="false"/>  
+  </dependency>  
+  <nesting>    
+    <source project="KinectProgram" name="be.wide.main.KinectProgram" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false"/>    
+    <target project="KinectProgram" name="be.wide.main.KinectProgram.PushObserver" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false"/>  
+  </nesting>  
+  <association>    
+    <source project="KinectProgram" name="be.wide.controller.SphereCamera" 
+      file="/KinectProgram/src/be/wide/controller/SphereCamera.java" binary="false" navigable="false">      
+      <attribute name="v"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.dom.Vector3" file="/KinectProgram/src/be/wide/dom/Vector3.java" 
+      binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="KinectProgram" name="be.wide.detector.BodyPoseRule" 
+      file="/KinectProgram/src/be/wide/detector/BodyPoseRule.java" binary="false" navigable="false">      
+      <attribute name="kinect"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.controller.KinectController" 
+      file="/KinectProgram/src/be/wide/controller/KinectController.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="KinectProgram" name="be.wide.detector.BodyPoseDetector" 
+      file="/KinectProgram/src/be/wide/detector/BodyPoseDetector.java" binary="false" navigable="false">      
+      <attribute name="kinect"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="KinectProgram" name="be.wide.controller.KinectController" 
+      file="/KinectProgram/src/be/wide/controller/KinectController.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting>    
+    <source project="KinectProgram" name="be.wide.controller.GestureController" 
+      file="/KinectProgram/src/be/wide/controller/GestureController.java" binary="false"/>    
+    <target project="KinectProgram" name="be.wide.controller.GestureController.SessionStartObserver" 
+      file="/KinectProgram/src/be/wide/controller/GestureController.java" binary="false"/>  
+  </nesting>  
+  <dependency>    
+    <source project="KinectProgram" name="be.wide.dom.Quaternion" file="/KinectProgram/src/be/wide/dom/Quaternion.java" 
+      binary="false"/>    
+    <target project="KinectProgram" name="be.wide.dom.Point3" file="/KinectProgram/src/be/wide/dom/Point3.java" 
+      binary="false"/>  
+  </dependency>  
+  <nesting>    
+    <source project="KinectProgram" name="be.wide.main.KinectProgram" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false"/>    
+    <target project="KinectProgram" name="be.wide.main.KinectProgram.SteadyObserver" 
+      file="/KinectProgram/src/be/wide/main/KinectProgram.java" binary="false"/>  
+  </nesting>  
+  <nesting>    
+    <source project="KinectProgram" name="be.wide.controller.KinectController" 
+      file="/KinectProgram/src/be/wide/controller/KinectController.java" binary="false"/>    
+    <target project="KinectProgram" name="be.wide.controller.KinectController.LostUserObserver" 
+      file="/KinectProgram/src/be/wide/controller/KinectController.java" binary="false"/>  
+  </nesting>  
+  <classifier-display autosize="true" package="true" initial-value="false" signature="true" visibility="true">    
+    <attributes public="true" package="true" protected="false" private="true"/>    
+    <operations public="true" package="true" protected="false" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
