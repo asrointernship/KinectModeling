@@ -276,7 +276,7 @@ public class KinectProgram extends PApplet{
 			pd2.addRule(SkeletonJoint.LEFT_HAND, BodyPoseRule.LEFT_OF, SkeletonJoint.LEFT_ELBOW);
 			pd2.addRule(SkeletonJoint.LEFT_HAND, BodyPoseRule.ABOVE, SkeletonJoint.LEFT_ELBOW);
 			pd2.addRule(SkeletonJoint.LEFT_HAND, BodyPoseRule.ABOVE, SkeletonJoint.LEFT_SHOULDER);
-			pd2.addRule(SkeletonJoint.LEFT_HAND, BodyPoseRule.DISTANCE, 1100, SkeletonJoint.RIGHT_HAND);
+			pd2.addRule(SkeletonJoint.LEFT_HAND, BodyPoseRule.DISTANCE, 1000, SkeletonJoint.RIGHT_HAND);
 			pd2.addRule(SkeletonJoint.RIGHT_HAND, BodyPoseRule.RIGHT_OF, SkeletonJoint.RIGHT_ELBOW);
 			pd2.addRule(SkeletonJoint.RIGHT_HAND, BodyPoseRule.ABOVE, SkeletonJoint.RIGHT_ELBOW);
 			pd2.addRule(SkeletonJoint.RIGHT_HAND, BodyPoseRule.ABOVE, SkeletonJoint.RIGHT_SHOULDER);
@@ -772,6 +772,7 @@ public class KinectProgram extends PApplet{
 
 			try
 			{
+				vc.setUseDummy(true);
 				voroMesh = vc.create();
 			}
 			catch (Exception e)
@@ -1182,17 +1183,20 @@ public class KinectProgram extends PApplet{
 	{
 		public void update(IObservable<BodyPoseEventArgs> arg0,
 				BodyPoseEventArgs arg1) {
-			System.out.println("body pose: " + arg1.getPose().getName());
 			if (kinect.isTracking() && (isNavigation || isModeling || isZooming))
 			{
 				if (arg1.getPose() == pd)
 				{
+					System.out.println("body pose: " + arg1.getPose().getName());
+
 					saveMesh();
 					startExplosion();
 				}
 
-				if (arg1.getPose() == pd2 && tposeTimer > 90)
+				if (arg1.getPose() == pd2 && tposeTimer > 200)
 				{
+					System.out.println("body pose: " + arg1.getPose().getName());
+
 					triangulateBigFaces();
 					tposeTimer = 0;
 				}

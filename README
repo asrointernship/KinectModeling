@@ -1,4 +1,24 @@
 KinectModeling
 
+Requirements:
+1. Install OpenNI drivers (http://www.openni.org)
+2. Install NITE drivers (http://www.openni.org)
+3. Install PrimeSense Kinect drivers (http://www.openni.org)
+4. Install OpenCV framework (http://opencv.willowgarage.com/wiki/)
+5. Connect Kinect (Microsoft Kinect for Xbox 360)
+6. Open project in eclipse/netbeans
+7. Run and enjoy!
+
+
+Controls:
+- Make Psi-pose to start
+- Select model by swiping, then hover Select-button
+- Select mode by hovering over a button
+- Make 2 fists and control with right hand to adapt model
+- Make t-pose to triangulate mesh
+- Make x-pose to save and exit program
+
+
 Created by Maarten Taeymans 
 Intership project at KULeuven, Dept. ASRO/CAAD
+Contact: widecrow@gmail.com

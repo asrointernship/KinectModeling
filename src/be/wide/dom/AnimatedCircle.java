@@ -40,7 +40,7 @@ public class AnimatedCircle
 
 		alpha = 255;
 		
-		waitTimer = rand.nextInt(200);
+		waitTimer = rand.nextInt(300);
 	}
 
 	/**
