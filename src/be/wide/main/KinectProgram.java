@@ -91,12 +91,13 @@ public class KinectProgram extends PApplet{
 	private PImage questionIcon;
 	
 	private HelpOverlay help;
+	private float tposeTimer = 0;
 
 	// Non-applet starting point
-	//	static public void main(String args[])
-	//	{
-	//		PApplet.main(new String[] {"be.wide.main.MainProgram"});
-	//	}
+//		static public void main(String args[])
+//		{
+//			PApplet.main(new String[] {"be.wide.main.KinectProgram"});
+//		}
 
 	/**
 	 * Processing's PApplet setup method.
@@ -104,10 +105,9 @@ public class KinectProgram extends PApplet{
 	 */
 	public void setup()
 	{
-		//		Dimension scr = Toolkit.getDefaultToolkit().getScreenSize();
-		//		size(scr.width, scr.height, OPENGL);
 		size(1000, 800, OPENGL);
 		background(bgColor);
+		//this.frame.setTitle("KinectModeling");
 		PFont font = createFont("Verdana", 30);
 		textFont(font);
 		textMode(SCREEN);
@@ -242,7 +242,7 @@ public class KinectProgram extends PApplet{
 		try {
 			// SWIPES
 			gest.getSwipeDetector().getSwipeLeftEvent().addObserver(new SwipeLeftObserver());
-			gest.getSwipeDetector().getSwipeRightEvent().addObserver(new SwipeRightObserver());
+			//gest.getSwipeDetector().getSwipeRightEvent().addObserver(new SwipeRightObserver());
 			//gest.getSwipeDetector().getSwipeUpEvent().addObserver(new SwipeUpObserver());
 			//gest.getSwipeDetector().getSwipeDownEvent().addObserver(new SwipeDownObserver());
 			//gest.getSwipeDetector().setUseSteady(true);
@@ -383,7 +383,7 @@ public class KinectProgram extends PApplet{
 				strokeWeight(2);
 				render.drawEdges(startMeshes[selectedModel]);
 				render.drawFaces(startMeshes[selectedModel]);
-				modeString = "Swipe left/right to choose model";
+				modeString = "Swipe left to choose model";
 			}
 			else
 			{
@@ -507,8 +507,9 @@ public class KinectProgram extends PApplet{
 				text("File saved as: " + savedFilename, 50, height - 50);
 			}
 		}
-
+		tposeTimer++;
 		if(explosionDone) System.exit(0);
+		
 	}
 
 	/**
@@ -1190,9 +1191,10 @@ public class KinectProgram extends PApplet{
 					startExplosion();
 				}
 
-				if (arg1.getPose() == pd2)
+				if (arg1.getPose() == pd2 && tposeTimer > 90)
 				{
 					triangulateBigFaces();
+					tposeTimer = 0;
 				}
 			}
 		}

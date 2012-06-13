@@ -47,6 +47,11 @@ public class GestureController
 			
 			// SWIPE DETECTOR
 			sd = new SwipeDetector();
+			sd.setMotionTime(300);
+			sd.setSteadyDuration(100);
+			sd.setXAngleThreshold(30);
+			sd.setYAngleThreshold(30);
+			sd.setSteadyMaxDeviation(0.1f);
 			//sd.getGeneralSwipeEvent().addObserver(new GeneralSwipeObserver()); //General Swipe Event
 			//sd.getSwipeLeftEvent().addObserver(new SwipeLeftObserver());
 			//sd.getSwipeRightEvent().addObserver(new SwipeRightObserver());
