@@ -6,7 +6,7 @@ Requirements:
 3. Install PrimeSense Kinect drivers (http://www.openni.org)
 4. Install OpenCV framework (http://opencv.willowgarage.com/wiki/)
 5. Connect Kinect (Microsoft Kinect for Xbox 360)
-6. Open project in eclipse/netbeans
+6. Open project in eclipse
 7. Run and enjoy!
 
 
@@ -20,5 +20,5 @@ Controls:
 
 
 Created by Maarten Taeymans 
-Intership project at KULeuven, Dept. ASRO/CAAD
+Internship project at KULeuven, Dept. ASRO/CAAD
 Contact: widecrow@gmail.com
