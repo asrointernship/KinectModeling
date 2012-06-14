@@ -1,5 +1,7 @@
 KinectModeling
 
+Video: http://www.youtube.com/watch?v=o3T2TLnkC40
+
 Requirements:
 1. Install OpenNI drivers (./drivers/openni-bin-dev-macosx.tar.bz2 or http://www.openni.org for latest version)
 2. Install NITE drivers (./drivers/nite-bin-macosx.tar.bz2 or http://www.openni.org for latest version)
