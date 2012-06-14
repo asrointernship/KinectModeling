@@ -15,10 +15,10 @@ Controls:
 - Select model by swiping, then hover Select-button
 - Select mode by hovering over a button
 - Make 2 fists and control with right hand to adapt model
-- Make t-pose to triangulate mesh
+- Make t-pose to subdivide biggest faces of mesh
 - Make x-pose to save and exit program
 
 
 Created by Maarten Taeymans 
 Internship project at KULeuven, Dept. ASRO/CAAD
-Contact: widecrow@gmail.com
+Contact: widecrow[at]gmail[dot]com
