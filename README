@@ -1,12 +1,12 @@
 KinectModeling
 
 Requirements:
-1. Install OpenNI drivers (http://www.openni.org)
-2. Install NITE drivers (http://www.openni.org)
-3. Install PrimeSense Kinect drivers (http://www.openni.org)
+1. Install OpenNI drivers (./drivers/openni-bin-dev-macosx.tar.bz2 or http://www.openni.org for latest version)
+2. Install NITE drivers (./drivers/nite-bin-macosx.tar.bz2 or http://www.openni.org for latest version)
+3. Install PrimeSense Kinect drivers (./drivers/avin2-SensorKinect-faf4994.zip)
 4. Install OpenCV framework (http://opencv.willowgarage.com/wiki/)
 5. Connect Kinect (Microsoft Kinect for Xbox 360)
-6. Open project in eclipse
+6. Open project in eclipse (http://www.eclipse.org)
 7. Run and enjoy!
 
 
