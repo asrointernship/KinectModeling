@@ -155,9 +155,10 @@ public class KinectProgram extends PApplet{
 		questionIcon = loadImage("../resources/questionmark.png", "png");
 		questionIcon.resize(80, 80);
 
-		help = new HelpOverlay(800, 600, 520, 160, 
-				new String[] {"Poses:", "T-Pose: Triangulate biggest faces", 
-				"X-Pose: Save and exit program", "", "", "Author: Maarten Taeymans", "Internship project at Dept. ASRO, KULeuven"}, questionIcon);
+		help = new HelpOverlay(800, 600, 550, 160, 
+				new String[] {"Poses:", "T-Pose: Subdivide biggest faces", 
+				"X-Pose: Save and exit program", "", "", "Author: Maarten Taeymans", 
+				"Internship project at Dept. ASRO, KULeuven"}, questionIcon);
 		
 		selectedList = new HashMap<Integer, List<HE_Face>>();
 		vertMoved = new ArrayList<HE_Vertex>();

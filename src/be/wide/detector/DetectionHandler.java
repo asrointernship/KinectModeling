@@ -188,7 +188,6 @@ public class DetectionHandler implements IObservable<HandDetectionEventArgs>
 	/**
 	 * Detect the number of fingers and updates the hand element.
 	 * @param image hand image to be checked
-	 * @param hand hand to be updated
 	 */
 	public boolean detect(IplImage image)
 	{
